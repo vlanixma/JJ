@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Start</name>
+    <events>
+        <variable constant="0" name="mute" sid="973352055228024" static="0" type="number">0</variable>
+        <event-block sid="161434603506493">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="571830154300235" type="System" />
+            </conditions>
+            <actions>
+                <action id="-7" name="Scroll to position" sid="676275980723868" type="System">
+                    <param id="0" name="X">960</param>
+                    <param id="1" name="Y">540</param>
+                </action>
+                <action id="0" name="Play" sid="227777618186322" type="Audio">
+                    <param id="0" name="Audio file">Segment_1-OsanpoRag</param>
+                    <param id="2" name="Loop">1</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="986164756893679">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="541027758933764" type="Touch">
+                    <param id="0" name="Object">btn_start</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="604983397730758" type="System">
+                    <param id="0" name="Layout">MainMenu</param>
+                </action>
+                <action id="0" name="Play" sid="734119805139479" type="Audio">
+                    <param id="0" name="Audio file">Button</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="793839561711106">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="799598359907232" type="System">
+                    <param id="0" name="Variable">mute</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="864306642739807">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="862176522093824" type="Touch">
+                            <param id="0" name="Object">btn_audio</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="726808502505128" type="System">
+                            <param id="0" name="Variable">mute</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set volume" sid="676680405245373" type="Audio">
+                            <param id="0" name="Tag">&quot;&quot;</param>
+                            <param id="1" name="dB">-100</param>
+                        </action>
+                        <action id="-24" name="Stop loop" sid="564541813032023" type="System" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="957253612002003">
+            <conditions>
+                <condition id="-22" name="Else" sid="588893686160987" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="747195139274722">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="927249740937360" type="Touch">
+                            <param id="0" name="Object">btn_audio</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set volume" sid="509930629074709" type="Audio">
+                            <param id="0" name="Tag">&quot;&quot;</param>
+                            <param id="1" name="dB">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="311384996148316" type="System">
+                            <param id="0" name="Variable">mute</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-24" name="Stop loop" sid="308369105636790" type="System" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="857458196804309">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="183529211697892" type="btn_audio">
+                    <param id="0" name="Instance variable">mut</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">mute</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="963463394805704" type="btn_audio">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="693027876790815">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="963509586983781" type="btn_audio">
+                    <param id="0" name="Instance variable">mut</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">mute</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="381883196529832" type="btn_audio">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

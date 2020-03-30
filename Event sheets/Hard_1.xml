@@ -1,0 +1,893 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Hard_1</name>
+    <events>
+        <variable constant="0" name="clevel_h" sid="947531516916871" static="0" type="number">0</variable>
+        <variable constant="0" name="cclevel_h" sid="820245522905909" static="0" type="number">0</variable>
+        <event-block sid="379496338613017">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="221233296999086" type="System" />
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="424773618576177" type="PH_1">
+                    <param id="0" name="Instance variable">SaveX</param>
+                    <param id="1" name="Value">Self.X</param>
+                </action>
+                <action id="-10" name="Set value" sid="982832673637967" type="PH_1">
+                    <param id="0" name="Instance variable">SaveY</param>
+                    <param id="1" name="Value">Self.Y</param>
+                </action>
+                <action id="-10" name="Set value" sid="722056354099259" type="PH_2">
+                    <param id="0" name="Instance variable">SaveX</param>
+                    <param id="1" name="Value">Self.X</param>
+                </action>
+                <action id="-10" name="Set value" sid="318856535745270" type="PH_2">
+                    <param id="0" name="Instance variable">SaveY</param>
+                    <param id="1" name="Value">Self.Y</param>
+                </action>
+                <action id="-10" name="Set value" sid="879546253166597" type="PH_3">
+                    <param id="0" name="Instance variable">SaveX</param>
+                    <param id="1" name="Value">Self.X</param>
+                </action>
+                <action id="-10" name="Set value" sid="919938912262988" type="PH_3">
+                    <param id="0" name="Instance variable">SaveY</param>
+                    <param id="1" name="Value">Self.Y</param>
+                </action>
+                <action id="-10" name="Set value" sid="107638018008827" type="PH_4">
+                    <param id="0" name="Instance variable">SaveX</param>
+                    <param id="1" name="Value">Self.X</param>
+                </action>
+                <action id="-10" name="Set value" sid="941628019276336" type="PH_4">
+                    <param id="0" name="Instance variable">SaveY</param>
+                    <param id="1" name="Value">Self.Y</param>
+                </action>
+                <action id="-7" name="Scroll to position" sid="344513692692512" type="System">
+                    <param id="0" name="X">960</param>
+                    <param id="1" name="Y">540</param>
+                </action>
+                <action id="-9" name="Set value" sid="524199170672285" type="System">
+                    <param id="0" name="Variable">CekBenar</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="139879999082243">
+            <conditions>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="254386612188233" type="PH_1" />
+            </conditions>
+            <actions>
+                <action id="-24" name="Move to top" sid="536205797842376" type="PH_1" />
+            </actions>
+        </event-block>
+        <event-block sid="194939755275587">
+            <conditions>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="927201316545366" type="PH_2" />
+            </conditions>
+            <actions>
+                <action id="-24" name="Move to top" sid="828191951273805" type="PH_2" />
+            </actions>
+        </event-block>
+        <event-block sid="523229636157195">
+            <conditions>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="894586278891371" type="PH_3" />
+            </conditions>
+            <actions>
+                <action id="-24" name="Move to top" sid="166798465033690" type="PH_3" />
+            </actions>
+        </event-block>
+        <event-block sid="893898489456198">
+            <conditions>
+                <condition behavior="DragDrop" id="1" name="On drag start" sid="198968061392792" type="PH_4" />
+            </conditions>
+            <actions>
+                <action id="-24" name="Move to top" sid="848413261597068" type="PH_4" />
+            </actions>
+        </event-block>
+        <event-block sid="999014662331061">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="123320688695657" type="PH_1" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="528347575591434">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="234449305805053" type="PH_1">
+                            <param id="0" name="Object">PHW_1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="637417777027806">
+                            <conditions>
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="203400097908310" type="PHW_1">
+                                    <param id="0" name="Instance variable">Terisi</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="303241862716651">
+                                    <conditions>
+                                        <condition id="3" name="Compare frame" sid="952427366411319" type="PH_1">
+                                            <param id="0" name="Comparison">0</param>
+                                            <param id="1" name="Number">PHW_1.AnimationFrame</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-13" name="Set boolean" sid="412099949474326" type="PHW_1">
+                                            <param id="0" name="Instance variable">Terisi</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action behavior="LiteTween2" id="10" name="Start" sid="987437491619261" type="PH_1">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action behavior="LiteTween2" id="3" name="Set target" sid="474277827100867" type="PH_1">
+                                            <param id="0" name="Target is">4</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">PHW_1.Width</param>
+                                        </action>
+                                        <action behavior="LiteTween2" id="3" name="Set target" sid="957762269456066" type="PH_1">
+                                            <param id="0" name="Target is">5</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">PHW_1.Height</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="889771211119279" type="PH_1">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="144695363530897" type="PH_1">
+                                            <param id="0" name="Target is">0</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">PHW_1.X</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="592458086355620" type="PH_1">
+                                            <param id="0" name="Target is">1</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">PHW_1.Y</param>
+                                        </action>
+                                        <action behavior="DragDrop" id="0" name="Set enabled" sid="771794393955809" type="PH_1">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                        <action id="-10" name="Add to" sid="954981178296990" type="System">
+                                            <param id="0" name="Variable">CekBenar</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="715911827097519" type="Audio">
+                                            <param id="0" name="Audio file">drop (online-audio-converter.com)</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="585512159173143">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="338245314997152" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="629441875154396" type="PH_1">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="488203659407493" type="PH_1">
+                                            <param id="0" name="Target is">0</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">Self.SaveX</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="467858695153628" type="PH_1">
+                                            <param id="0" name="Target is">1</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">Self.SaveY</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="657279952744403">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="377618237253327" type="System" />
+                            </conditions>
+                            <actions>
+                                <action behavior="LiteTween" id="10" name="Start" sid="249394184413966" type="PH_1">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action behavior="LiteTween" id="3" name="Set target" sid="806091865954860" type="PH_1">
+                                    <param id="0" name="Target is">0</param>
+                                    <param id="1" name="Relativity">0</param>
+                                    <param id="2" name="Value">Self.SaveX</param>
+                                </action>
+                                <action behavior="LiteTween" id="3" name="Set target" sid="483695322326893" type="PH_1">
+                                    <param id="0" name="Target is">1</param>
+                                    <param id="1" name="Relativity">0</param>
+                                    <param id="2" name="Value">Self.SaveY</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="744950979668958">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="343487396571117" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="LiteTween" id="10" name="Start" sid="288651012038083" type="PH_1">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action behavior="LiteTween" id="3" name="Set target" sid="601234360452174" type="PH_1">
+                            <param id="0" name="Target is">0</param>
+                            <param id="1" name="Relativity">0</param>
+                            <param id="2" name="Value">Self.SaveX</param>
+                        </action>
+                        <action behavior="LiteTween" id="3" name="Set target" sid="433825471380695" type="PH_1">
+                            <param id="0" name="Target is">1</param>
+                            <param id="1" name="Relativity">0</param>
+                            <param id="2" name="Value">Self.SaveY</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="214038261413662">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="238372119542364" type="PH_2" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="949938909868362">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="341836122528219" type="PH_2">
+                            <param id="0" name="Object">PHW_2</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="640596429322207">
+                            <conditions>
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="640321919057925" type="PHW_2">
+                                    <param id="0" name="Instance variable">Terisi</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="635464739480252">
+                                    <conditions>
+                                        <condition id="3" name="Compare frame" sid="376623147386921" type="PH_2">
+                                            <param id="0" name="Comparison">0</param>
+                                            <param id="1" name="Number">PHW_2.AnimationFrame</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-13" name="Set boolean" sid="193317869265530" type="PHW_2">
+                                            <param id="0" name="Instance variable">Terisi</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action behavior="LiteTween2" id="10" name="Start" sid="829049751210182" type="PH_2">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action behavior="LiteTween2" id="3" name="Set target" sid="213158454797151" type="PH_2">
+                                            <param id="0" name="Target is">4</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">PHW_2.Width</param>
+                                        </action>
+                                        <action behavior="LiteTween2" id="3" name="Set target" sid="432901973527647" type="PH_2">
+                                            <param id="0" name="Target is">5</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">PHW_2.Height</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="143430632681029" type="PH_2">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="362336035087959" type="PH_2">
+                                            <param id="0" name="Target is">0</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">PHW_2.X</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="337562024369552" type="PH_2">
+                                            <param id="0" name="Target is">1</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">PHW_2.Y</param>
+                                        </action>
+                                        <action behavior="DragDrop" id="0" name="Set enabled" sid="309628029588541" type="PH_2">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                        <action id="-10" name="Add to" sid="508880169929047" type="System">
+                                            <param id="0" name="Variable">CekBenar</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="159297386062775" type="Audio">
+                                            <param id="0" name="Audio file">drop (online-audio-converter.com)</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="301084833882524">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="523215760462185" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="855144570471717" type="PH_2">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="185910930814574" type="PH_2">
+                                            <param id="0" name="Target is">0</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">Self.SaveX</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="670079541575066" type="PH_2">
+                                            <param id="0" name="Target is">1</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">Self.SaveY</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="614559545592774">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="949981630731965" type="System" />
+                            </conditions>
+                            <actions>
+                                <action behavior="LiteTween" id="10" name="Start" sid="394872351908986" type="PH_2">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action behavior="LiteTween" id="3" name="Set target" sid="387730309967418" type="PH_2">
+                                    <param id="0" name="Target is">0</param>
+                                    <param id="1" name="Relativity">0</param>
+                                    <param id="2" name="Value">Self.SaveX</param>
+                                </action>
+                                <action behavior="LiteTween" id="3" name="Set target" sid="279458777211176" type="PH_2">
+                                    <param id="0" name="Target is">1</param>
+                                    <param id="1" name="Relativity">0</param>
+                                    <param id="2" name="Value">Self.SaveY</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="573709574717970">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="642487875422725" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="LiteTween" id="10" name="Start" sid="193939493867898" type="PH_2">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action behavior="LiteTween" id="3" name="Set target" sid="612432292395673" type="PH_2">
+                            <param id="0" name="Target is">0</param>
+                            <param id="1" name="Relativity">0</param>
+                            <param id="2" name="Value">Self.SaveX</param>
+                        </action>
+                        <action behavior="LiteTween" id="3" name="Set target" sid="978091661440720" type="PH_2">
+                            <param id="0" name="Target is">1</param>
+                            <param id="1" name="Relativity">0</param>
+                            <param id="2" name="Value">Self.SaveY</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="851526927703892">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="419688700911184" type="PH_3" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="140225765419018">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="482964599654325" type="PH_3">
+                            <param id="0" name="Object">PHW_3</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="296108807517438">
+                            <conditions>
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="908569150453743" type="PHW_3">
+                                    <param id="0" name="Instance variable">Terisi</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="623313015271137">
+                                    <conditions>
+                                        <condition id="3" name="Compare frame" sid="474082225504079" type="PH_3">
+                                            <param id="0" name="Comparison">0</param>
+                                            <param id="1" name="Number">PHW_3.AnimationFrame</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-13" name="Set boolean" sid="838708169856066" type="PHW_3">
+                                            <param id="0" name="Instance variable">Terisi</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action behavior="LiteTween2" id="10" name="Start" sid="826981531272450" type="PH_3">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action behavior="LiteTween2" id="3" name="Set target" sid="979552709967216" type="PH_3">
+                                            <param id="0" name="Target is">4</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">PHW_3.Width</param>
+                                        </action>
+                                        <action behavior="LiteTween2" id="3" name="Set target" sid="878912069461501" type="PH_3">
+                                            <param id="0" name="Target is">5</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">PHW_3.Height</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="322951739646595" type="PH_3">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="233530648831248" type="PH_3">
+                                            <param id="0" name="Target is">0</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">PHW_3.X</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="795419135836280" type="PH_3">
+                                            <param id="0" name="Target is">1</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">PHW_3.Y</param>
+                                        </action>
+                                        <action behavior="DragDrop" id="0" name="Set enabled" sid="655738436914789" type="PH_3">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                        <action id="-10" name="Add to" sid="744701318322518" type="System">
+                                            <param id="0" name="Variable">CekBenar</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="527711815383053" type="Audio">
+                                            <param id="0" name="Audio file">drop (online-audio-converter.com)</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="597312829069652">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="163267500609330" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="222928428221048" type="PH_3">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="758010423404709" type="PH_3">
+                                            <param id="0" name="Target is">0</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">Self.SaveX</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="549739243809923" type="PH_3">
+                                            <param id="0" name="Target is">1</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">Self.SaveY</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="460427437061432">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="188397334492651" type="System" />
+                            </conditions>
+                            <actions>
+                                <action behavior="LiteTween" id="10" name="Start" sid="381622734554683" type="PH_3">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action behavior="LiteTween" id="3" name="Set target" sid="300176299121174" type="PH_3">
+                                    <param id="0" name="Target is">0</param>
+                                    <param id="1" name="Relativity">0</param>
+                                    <param id="2" name="Value">Self.SaveX</param>
+                                </action>
+                                <action behavior="LiteTween" id="3" name="Set target" sid="600404224961602" type="PH_3">
+                                    <param id="0" name="Target is">1</param>
+                                    <param id="1" name="Relativity">0</param>
+                                    <param id="2" name="Value">Self.SaveY</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="644758867009523">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="763246634248758" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="LiteTween" id="10" name="Start" sid="942851100701840" type="PH_3">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action behavior="LiteTween" id="3" name="Set target" sid="708598798192473" type="PH_3">
+                            <param id="0" name="Target is">0</param>
+                            <param id="1" name="Relativity">0</param>
+                            <param id="2" name="Value">Self.SaveX</param>
+                        </action>
+                        <action behavior="LiteTween" id="3" name="Set target" sid="451045647278240" type="PH_3">
+                            <param id="0" name="Target is">1</param>
+                            <param id="1" name="Relativity">0</param>
+                            <param id="2" name="Value">Self.SaveY</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="795505010541322">
+            <conditions>
+                <condition behavior="DragDrop" id="2" name="On drop" sid="369844404567610" type="PH_4" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="843584763843439">
+                    <conditions>
+                        <condition id="1" name="Is overlapping another object" sid="310613703003876" type="PH_4">
+                            <param id="0" name="Object">PHW_4</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="385883574594381">
+                            <conditions>
+                                <condition id="-8" inverted="1" name="Is boolean instance variable set" sid="420284548016232" type="PHW_4">
+                                    <param id="0" name="Instance variable">Terisi</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block sid="609683356442849">
+                                    <conditions>
+                                        <condition id="3" name="Compare frame" sid="225955697732757" type="PH_4">
+                                            <param id="0" name="Comparison">0</param>
+                                            <param id="1" name="Number">PHW_4.AnimationFrame</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-13" name="Set boolean" sid="364151762230855" type="PHW_4">
+                                            <param id="0" name="Instance variable">Terisi</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action behavior="LiteTween2" id="10" name="Start" sid="643229423531260" type="PH_4">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action behavior="LiteTween2" id="3" name="Set target" sid="484739097288769" type="PH_4">
+                                            <param id="0" name="Target is">4</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">PHW_4.Width</param>
+                                        </action>
+                                        <action behavior="LiteTween2" id="3" name="Set target" sid="555968412699249" type="PH_4">
+                                            <param id="0" name="Target is">5</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">PHW_4.Height</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="296535946449752" type="PH_4">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="401319200832767" type="PH_4">
+                                            <param id="0" name="Target is">0</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">PHW_4.X</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="920217727237356" type="PH_4">
+                                            <param id="0" name="Target is">1</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">PHW_4.Y</param>
+                                        </action>
+                                        <action behavior="DragDrop" id="0" name="Set enabled" sid="741735327611120" type="PH_4">
+                                            <param id="0" name="State">0</param>
+                                        </action>
+                                        <action id="-10" name="Add to" sid="207879271463157" type="System">
+                                            <param id="0" name="Variable">CekBenar</param>
+                                            <param id="1" name="Value">1</param>
+                                        </action>
+                                        <action id="0" name="Play" sid="749627980225520" type="Audio">
+                                            <param id="0" name="Audio file">drop (online-audio-converter.com)</param>
+                                            <param id="2" name="Loop">0</param>
+                                            <param id="3" name="Volume">0</param>
+                                            <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                                <event-block sid="260784206483072">
+                                    <conditions>
+                                        <condition id="-22" name="Else" sid="816202718340427" type="System" />
+                                    </conditions>
+                                    <actions>
+                                        <action behavior="LiteTween" id="10" name="Start" sid="442887554042510" type="PH_4">
+                                            <param id="0" name="Start Mode">0</param>
+                                            <param id="1" name="Force use current">0</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="385697138740755" type="PH_4">
+                                            <param id="0" name="Target is">0</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">Self.SaveX</param>
+                                        </action>
+                                        <action behavior="LiteTween" id="3" name="Set target" sid="937607560931830" type="PH_4">
+                                            <param id="0" name="Target is">1</param>
+                                            <param id="1" name="Relativity">0</param>
+                                            <param id="2" name="Value">Self.SaveY</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                        <event-block sid="373539590373499">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="847487814089347" type="System" />
+                            </conditions>
+                            <actions>
+                                <action behavior="LiteTween" id="10" name="Start" sid="779465437079173" type="PH_4">
+                                    <param id="0" name="Start Mode">0</param>
+                                    <param id="1" name="Force use current">0</param>
+                                </action>
+                                <action behavior="LiteTween" id="3" name="Set target" sid="688699819930128" type="PH_4">
+                                    <param id="0" name="Target is">0</param>
+                                    <param id="1" name="Relativity">0</param>
+                                    <param id="2" name="Value">Self.SaveX</param>
+                                </action>
+                                <action behavior="LiteTween" id="3" name="Set target" sid="373065244538821" type="PH_4">
+                                    <param id="0" name="Target is">1</param>
+                                    <param id="1" name="Relativity">0</param>
+                                    <param id="2" name="Value">Self.SaveY</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="373820252975347">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="893602794367095" type="System" />
+                    </conditions>
+                    <actions>
+                        <action behavior="LiteTween" id="10" name="Start" sid="378295472453553" type="PH_4">
+                            <param id="0" name="Start Mode">0</param>
+                            <param id="1" name="Force use current">0</param>
+                        </action>
+                        <action behavior="LiteTween" id="3" name="Set target" sid="936663252233117" type="PH_4">
+                            <param id="0" name="Target is">0</param>
+                            <param id="1" name="Relativity">0</param>
+                            <param id="2" name="Value">Self.SaveX</param>
+                        </action>
+                        <action behavior="LiteTween" id="3" name="Set target" sid="758511451730726" type="PH_4">
+                            <param id="0" name="Target is">1</param>
+                            <param id="1" name="Relativity">0</param>
+                            <param id="2" name="Value">Self.SaveY</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="707382747568320">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="572414744742417" type="System">
+                    <param id="0" name="Variable">cclevel_h</param>
+                    <param id="1" name="Comparison">4</param>
+                    <param id="2" name="Value">level_h</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="204382409313550" type="System">
+                    <param id="0" name="Variable">level_h</param>
+                    <param id="1" name="Value">cclevel_h</param>
+                </action>
+                <action id="0" name="Set item" sid="585882708437553" type="LocalStorage_E">
+                    <param id="0" name="Key">&quot;level_h&quot;</param>
+                    <param id="1" name="Value">level_h</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="784879216717530">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="842713736166864" type="System">
+                    <param id="0" name="Variable">CekBenar</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">20</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="292269392440853">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="240215270184030" type="System">
+                            <param id="0" name="Variable">clevel_h</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="645868341173330" type="System">
+                            <param id="0" name="Variable">cclevel_h</param>
+                            <param id="1" name="Value">2</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="928762677749540" type="System">
+                            <param id="0" name="Layout">IFG_H_1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="570224851273450">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="728563137355082" type="System">
+                            <param id="0" name="Variable">clevel_h</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="621671619129463" type="System">
+                            <param id="0" name="Variable">cclevel_h</param>
+                            <param id="1" name="Value">3</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="370142663549527" type="System">
+                            <param id="0" name="Layout">IFG_H_2</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="539475933381338">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="348841069254404" type="System">
+                            <param id="0" name="Variable">clevel_h</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="211097397078745" type="System">
+                            <param id="0" name="Variable">cclevel_h</param>
+                            <param id="1" name="Value">4</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="845884112188014" type="System">
+                            <param id="0" name="Layout">IFG_H_3</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="327908537377524">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="851354065617351" type="System">
+                            <param id="0" name="Variable">clevel_h</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="828192745005021" type="System">
+                            <param id="0" name="Variable">cclevel_h</param>
+                            <param id="1" name="Value">5</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="914095120793889" type="System">
+                            <param id="0" name="Layout">IFG_H_4</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="905570927521080">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="322146747074333" type="Touch">
+                    <param id="0" name="Object">btn_back</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="453748271835853" type="System">
+                    <param id="0" name="Layout">Level_H</param>
+                </action>
+                <action id="0" name="Play" sid="969577075424571" type="Audio">
+                    <param id="0" name="Audio file">Button</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="305940723904432">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="966011172946895" type="Touch">
+                    <param id="0" name="Object">btn_restart</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="518373527978956" type="System" />
+                <action id="0" name="Play" sid="565153482229954" type="Audio">
+                    <param id="0" name="Audio file">Button</param>
+                    <param id="2" name="Loop">0</param>
+                    <param id="3" name="Volume">0</param>
+                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="845001614862664">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="315880448122302" type="System">
+                    <param id="0" name="Variable">mute</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="368686924601997">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="664354082106589" type="Touch">
+                            <param id="0" name="Object">btn_audio</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="143927200850459" type="System">
+                            <param id="0" name="Variable">mute</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="3" name="Set volume" sid="759699324059672" type="Audio">
+                            <param id="0" name="Tag">&quot;&quot;</param>
+                            <param id="1" name="dB">-100</param>
+                        </action>
+                        <action id="-24" name="Stop loop" sid="262498503434529" type="System" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="883385878389692">
+            <conditions>
+                <condition id="-22" name="Else" sid="844780211140286" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="222382364480569">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="303494039013949" type="Touch">
+                            <param id="0" name="Object">btn_audio</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="3" name="Set volume" sid="116967595931130" type="Audio">
+                            <param id="0" name="Tag">&quot;&quot;</param>
+                            <param id="1" name="dB">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="369860172356257" type="System">
+                            <param id="0" name="Variable">mute</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-24" name="Stop loop" sid="532289728423379" type="System" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="930448102747400">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="721443757046672" type="btn_audio">
+                    <param id="0" name="Instance variable">mut</param>
+                    <param id="1" name="Comparison">2</param>
+                    <param id="2" name="Value">mute</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="392486635665467" type="btn_audio">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="315507773411272">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="121379542646364" type="btn_audio">
+                    <param id="0" name="Instance variable">mut</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">mute</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="446981969587142" type="btn_audio">
+                    <param id="0" name="Frame number">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

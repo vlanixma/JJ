@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="0">Level_H</layout>
+        <layout order="1">Hard_1</layout>
+        <layout order="2">Hard_2</layout>
+        <layout active="1" order="3">Hard_3</layout>
+        <layout order="4">Hard_4</layout>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="0" path="layout-folder/Easy/" />
+        <folder expanded="0" path="layout-folder/Easy/InfoGrafis/" />
+        <folder expanded="0" path="layout-folder/Normal/" />
+        <folder expanded="1" path="layout-folder/Normal/InfoGrafis/" />
+        <folder expanded="1" path="layout-folder/Hard/" />
+        <folder expanded="0" path="layout-folder/Hard/InfoGrafis/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="0" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="1" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/PE_1/" />
+        <folder expanded="1" path="animation-folder/PEW_1/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/SafeZoneUI/" />
+        <folder expanded="1" path="animation-folder/btn_easy/" />
+        <folder expanded="1" path="animation-folder/btn_normal/" />
+        <folder expanded="1" path="animation-folder/btn_hard/" />
+        <folder expanded="1" path="animation-folder/BG_MS/" />
+        <folder expanded="1" path="animation-folder/BG_MM/" />
+        <folder expanded="1" path="animation-folder/bg_mg/" />
+        <folder expanded="1" path="animation-folder/mg_ch1/" />
+        <folder expanded="1" path="animation-folder/mg_filter/" />
+        <folder expanded="1" path="animation-folder/mg_filter2/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/bg_kcl1/" />
+        <folder expanded="1" path="animation-folder/bg_kcl2/" />
+        <folder expanded="1" path="animation-folder/bg_flt/" />
+        <folder expanded="1" path="animation-folder/btn_back/" />
+        <folder expanded="1" path="animation-folder/MA_btn_level_lo/" />
+        <folder expanded="1" path="animation-folder/btn_restart/" />
+        <folder expanded="1" path="animation-folder/PEW_2/" />
+        <folder expanded="1" path="animation-folder/PE_2/" />
+        <folder expanded="1" path="animation-folder/PE_3/" />
+        <folder expanded="1" path="animation-folder/PEW_3/" />
+        <folder expanded="1" path="animation-folder/PE_4/" />
+        <folder expanded="1" path="animation-folder/PEW_4/" />
+        <folder expanded="1" path="animation-folder/PNW_1/" />
+        <folder expanded="1" path="animation-folder/PN_1/" />
+        <folder expanded="1" path="animation-folder/PNW_2/" />
+        <folder expanded="1" path="animation-folder/PN_2/" />
+        <folder expanded="1" path="animation-folder/PNW_3/" />
+        <folder expanded="1" path="animation-folder/PN_3/" />
+        <folder expanded="1" path="animation-folder/PNW_4/" />
+        <folder expanded="1" path="animation-folder/PN_4/" />
+        <folder expanded="1" path="animation-folder/btn_start/" />
+        <folder expanded="1" path="animation-folder/IFG_E/" />
+        <folder expanded="1" path="animation-folder/mg_char/" />
+        <folder expanded="1" path="animation-folder/btn_mm/" />
+        <folder expanded="1" path="animation-folder/btn_frwd/" />
+        <folder expanded="1" path="animation-folder/startmain/" />
+        <folder expanded="1" path="animation-folder/IFG_N/" />
+        <folder expanded="1" path="animation-folder/btn_audio/" />
+        <folder expanded="1" path="animation-folder/PHW_1/" />
+        <folder expanded="1" path="animation-folder/PH_1/" />
+        <folder expanded="1" path="animation-folder/PHW_2/" />
+        <folder expanded="1" path="animation-folder/PH_2/" />
+        <folder expanded="1" path="animation-folder/PHW_3/" />
+        <folder expanded="1" path="animation-folder/PH_3/" />
+        <folder expanded="1" path="animation-folder/PHW_4/" />
+        <folder expanded="1" path="animation-folder/PH_4/" />
+        <folder expanded="1" path="animation-folder/IFG_H/" />
+    </folders-expanded>
+</c2uistate>
