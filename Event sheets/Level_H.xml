@@ -63,7 +63,7 @@
                 <condition id="-7" name="Compare instance variable" sid="987923364488905" type="MA_btn_level_lo">
                     <param id="0" name="Instance variable">lev_e</param>
                     <param id="1" name="Comparison">4</param>
-                    <param id="2" name="Value">level_n</param>
+                    <param id="2" name="Value">level_h</param>
                 </condition>
             </conditions>
             <actions>

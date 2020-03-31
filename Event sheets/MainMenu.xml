@@ -200,5 +200,15 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="489427707687339">
+            <conditions>
+                <condition id="17" name="On tap object" sid="910274971810318" type="Touch">
+                    <param id="0" name="Object">btn_exit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Close" sid="655433685429891" type="Browser" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
