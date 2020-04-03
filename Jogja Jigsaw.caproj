@@ -2,7 +2,7 @@
 <c2project>
     <name>Jogja Jigsaw</name>
     <description>Jogja Jigsaw</description>
-    <version>1.0.0.3</version>
+    <version>1.0.0.5</version>
     <author>Jeva</author>
     <author-email>jevasamuderasabda@gmail.com</author-email>
     <author-website>http://</author-website>
@@ -1678,7 +1678,7 @@
                             <point x="0.00249377" y="0.498753" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="1" hotspotY="0" original-source="C:\Users\Vlanixma\Documents\Jeva\Asset\Button_sound2.png">
+                    <frame duration="1" hotspotX="0" hotspotY="0" original-source="C:\Users\Vlanixma\Documents\Jeva\Asset\Button_sound2.png">
                         <collision-poly>
                             <point x="0.142145" y="0.142145" />
                             <point x="0.498753" y="0" />

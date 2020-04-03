@@ -169,7 +169,7 @@
             <sub-events>
                 <event-block sid="232004617347278">
                     <conditions>
-                        <condition id="4" name="Is touching object" sid="628364283549921" type="Touch">
+                        <condition id="17" name="On tap object" sid="628364283549921" type="Touch">
                             <param id="0" name="Object">btn_audio</param>
                         </condition>
                     </conditions>
@@ -195,7 +195,7 @@
             <sub-events>
                 <event-block sid="921917593748603">
                     <conditions>
-                        <condition id="4" name="Is touching object" sid="930043872332788" type="Touch">
+                        <condition id="17" name="On tap object" sid="930043872332788" type="Touch">
                             <param id="0" name="Object">btn_audio</param>
                         </condition>
                     </conditions>
