@@ -10,15 +10,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="11">Level_N</layout>
-        <layout order="12">Level_H</layout>
-        <layout active="1" order="13">Start</layout>
-        <layout order="14">IFG_H_1</layout>
-        <event-sheet order="0">Easy_1</event-sheet>
+        <event-sheet active="1" order="0">Easy_1</event-sheet>
         <event-sheet order="1">Hard_1</event-sheet>
         <event-sheet order="2">IFG_E</event-sheet>
-        <event-sheet order="4">IFG_H</event-sheet>
         <event-sheet order="3">IFG_N</event-sheet>
+        <event-sheet order="4">IFG_H</event-sheet>
         <event-sheet order="5">Level_E</event-sheet>
         <event-sheet order="6">Level_H</event-sheet>
         <event-sheet order="7">Level_N</event-sheet>

@@ -176,7 +176,7 @@
                             <param id="1" name="Value">1</param>
                         </action>
                         <action id="22" name="Set paused" sid="955654344562801" type="Audio">
-                            <param id="0" name="Tag">&quot;&quot;</param>
+                            <param id="0" name="Tag">&quot;a&quot;</param>
                             <param id="1" name="State">0</param>
                         </action>
                         <action id="-24" name="Stop loop" sid="908483696534768" type="System" />
@@ -198,7 +198,7 @@
                     </conditions>
                     <actions>
                         <action id="22" name="Set paused" sid="594240760287268" type="Audio">
-                            <param id="0" name="Tag">&quot;&quot;</param>
+                            <param id="0" name="Tag">&quot;a&quot;</param>
                             <param id="1" name="State">1</param>
                         </action>
                         <action id="-9" name="Set value" sid="260945625239955" type="System">

@@ -864,9 +864,9 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="190750164402176">
+        <event-block sid="103684468268660">
             <conditions>
-                <condition id="-14" name="Compare variable" sid="373028728967745" type="System">
+                <condition id="-14" name="Compare variable" sid="636790658831523" type="System">
                     <param id="0" name="Variable">mute</param>
                     <param id="1" name="Comparison">0</param>
                     <param id="2" name="Value">0</param>
@@ -874,48 +874,48 @@
             </conditions>
             <actions />
             <sub-events>
-                <event-block sid="581132307322784">
+                <event-block sid="205211415774150">
                     <conditions>
-                        <condition id="17" name="On tap object" sid="779975463725323" type="Touch">
+                        <condition id="17" name="On tap object" sid="493316186986955" type="Touch">
                             <param id="0" name="Object">btn_audio</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="969114477561641" type="System">
+                        <action id="-9" name="Set value" sid="278062530870339" type="System">
                             <param id="0" name="Variable">mute</param>
                             <param id="1" name="Value">1</param>
                         </action>
-                        <action id="22" name="Set paused" sid="723349189417478" type="Audio">
-                            <param id="0" name="Tag">&quot;&quot;</param>
+                        <action id="22" name="Set paused" sid="733849973808788" type="Audio">
+                            <param id="0" name="Tag">&quot;a&quot;</param>
                             <param id="1" name="State">0</param>
                         </action>
-                        <action id="-24" name="Stop loop" sid="260199224407237" type="System" />
+                        <action id="-24" name="Stop loop" sid="675263006945392" type="System" />
                     </actions>
                 </event-block>
             </sub-events>
         </event-block>
-        <event-block sid="250368795381891">
+        <event-block sid="340808961944899">
             <conditions>
-                <condition id="-22" name="Else" sid="295891920079713" type="System" />
+                <condition id="-22" name="Else" sid="381637841888941" type="System" />
             </conditions>
             <actions />
             <sub-events>
-                <event-block sid="689488556640728">
+                <event-block sid="395359696587108">
                     <conditions>
-                        <condition id="4" name="Is touching object" sid="752585388127164" type="Touch">
+                        <condition id="4" name="Is touching object" sid="415103653529842" type="Touch">
                             <param id="0" name="Object">btn_audio</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="22" name="Set paused" sid="184501949776584" type="Audio">
-                            <param id="0" name="Tag">&quot;&quot;</param>
+                        <action id="22" name="Set paused" sid="130781091640335" type="Audio">
+                            <param id="0" name="Tag">&quot;a&quot;</param>
                             <param id="1" name="State">1</param>
                         </action>
-                        <action id="-9" name="Set value" sid="836343533510413" type="System">
+                        <action id="-9" name="Set value" sid="226495260852816" type="System">
                             <param id="0" name="Variable">mute</param>
                             <param id="1" name="Value">0</param>
                         </action>
-                        <action id="-24" name="Stop loop" sid="648879250630395" type="System" />
+                        <action id="-24" name="Stop loop" sid="792498363023510" type="System" />
                     </actions>
                 </event-block>
             </sub-events>

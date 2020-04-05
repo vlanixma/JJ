@@ -17,7 +17,7 @@
                     <param id="0" name="Audio file">Segment_1-OsanpoRag</param>
                     <param id="2" name="Loop">1</param>
                     <param id="3" name="Volume">0</param>
-                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                    <param id="1" name="Tag (optional)">&quot;a&quot;</param>
                 </action>
             </actions>
         </event-block>
@@ -38,62 +38,6 @@
                     <param id="1" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
-        </event-block>
-        <event-block sid="793839561711106">
-            <conditions>
-                <condition id="-14" name="Compare variable" sid="799598359907232" type="System">
-                    <param id="0" name="Variable">mute</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">0</param>
-                </condition>
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="864306642739807">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="862176522093824" type="Touch">
-                            <param id="0" name="Object">btn_audio</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="726808502505128" type="System">
-                            <param id="0" name="Variable">mute</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="22" name="Set paused" sid="676680405245373" type="Audio">
-                            <param id="0" name="Tag">&quot;&quot;</param>
-                            <param id="1" name="State">0</param>
-                        </action>
-                        <action id="-24" name="Stop loop" sid="564541813032023" type="System" />
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="957253612002003">
-            <conditions>
-                <condition id="-22" name="Else" sid="588893686160987" type="System" />
-            </conditions>
-            <actions />
-            <sub-events>
-                <event-block sid="747195139274722">
-                    <conditions>
-                        <condition id="4" name="Is touching object" sid="927249740937360" type="Touch">
-                            <param id="0" name="Object">btn_audio</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="22" name="Set paused" sid="509930629074709" type="Audio">
-                            <param id="0" name="Tag">&quot;&quot;</param>
-                            <param id="1" name="State">1</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="311384996148316" type="System">
-                            <param id="0" name="Variable">mute</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-24" name="Stop loop" sid="308369105636790" type="System" />
-                    </actions>
-                </event-block>
-            </sub-events>
         </event-block>
         <event-block sid="857458196804309">
             <conditions>
@@ -122,6 +66,62 @@
                     <param id="0" name="Frame number">0</param>
                 </action>
             </actions>
+        </event-block>
+        <event-block sid="876157689628832">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="651845810111844" type="System">
+                    <param id="0" name="Variable">mute</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="533647680651647">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="268291825549636" type="Touch">
+                            <param id="0" name="Object">btn_audio</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="645808352419147" type="System">
+                            <param id="0" name="Variable">mute</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="22" name="Set paused" sid="625890553406185" type="Audio">
+                            <param id="0" name="Tag">&quot;a&quot;</param>
+                            <param id="1" name="State">0</param>
+                        </action>
+                        <action id="-24" name="Stop loop" sid="562035430934380" type="System" />
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="312704488706156">
+            <conditions>
+                <condition id="-22" name="Else" sid="404104385086226" type="System" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="727027362366999">
+                    <conditions>
+                        <condition id="4" name="Is touching object" sid="755485299608490" type="Touch">
+                            <param id="0" name="Object">btn_audio</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="22" name="Set paused" sid="468635243498635" type="Audio">
+                            <param id="0" name="Tag">&quot;a&quot;</param>
+                            <param id="1" name="State">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="312885561618302" type="System">
+                            <param id="0" name="Variable">mute</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-24" name="Stop loop" sid="663220688172716" type="System" />
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>
