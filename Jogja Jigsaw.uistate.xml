@@ -10,18 +10,21 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="0">Start</layout>
-        <layout order="3">MainMenu</layout>
-        <layout order="5">Easy_1</layout>
-        <layout order="6">Easy_2</layout>
-        <layout order="7">Easy_3</layout>
-        <layout order="8">Easy_4</layout>
-        <layout order="11">Level_H</layout>
-        <event-sheet order="1">Start</event-sheet>
-        <event-sheet active="1" order="2">MainMenu</event-sheet>
-        <event-sheet order="4">Level_E</event-sheet>
-        <event-sheet order="9">Easy_1</event-sheet>
-        <event-sheet order="10">Level_H</event-sheet>
+        <layout order="11">Level_N</layout>
+        <layout order="12">Level_H</layout>
+        <layout active="1" order="13">Start</layout>
+        <layout order="14">IFG_H_1</layout>
+        <event-sheet order="0">Easy_1</event-sheet>
+        <event-sheet order="1">Hard_1</event-sheet>
+        <event-sheet order="2">IFG_E</event-sheet>
+        <event-sheet order="4">IFG_H</event-sheet>
+        <event-sheet order="3">IFG_N</event-sheet>
+        <event-sheet order="5">Level_E</event-sheet>
+        <event-sheet order="6">Level_H</event-sheet>
+        <event-sheet order="7">Level_N</event-sheet>
+        <event-sheet order="8">MainMenu</event-sheet>
+        <event-sheet order="9">Normal_1</event-sheet>
+        <event-sheet order="10">Start</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -32,14 +35,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1" />
     <folders-expanded>
         <folder expanded="0" path="object-folder/" />
-        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="0" path="layout-folder/" />
         <folder expanded="1" path="layout-folder/Easy/" />
         <folder expanded="0" path="layout-folder/Easy/InfoGrafis/" />
         <folder expanded="0" path="layout-folder/Normal/" />
         <folder expanded="1" path="layout-folder/Normal/InfoGrafis/" />
         <folder expanded="1" path="layout-folder/Hard/" />
-        <folder expanded="0" path="layout-folder/Hard/InfoGrafis/" />
-        <folder expanded="1" path="event-folder/" />
+        <folder expanded="1" path="layout-folder/Hard/InfoGrafis/" />
+        <folder expanded="0" path="event-folder/" />
         <folder expanded="1" path="file-folder/" />
         <folder expanded="0" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
